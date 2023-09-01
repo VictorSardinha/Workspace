@@ -1,0 +1,20 @@
+body {
+    background-color: palevioletred;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: rgb(175, 64, 64);
+}
+
+h3 {
+    color: brown;
+}
+
+footer {
+    color: rgb(255, 213, 220);
+}
+
+p {
+    color: rgb(255, 142, 142);
+}
