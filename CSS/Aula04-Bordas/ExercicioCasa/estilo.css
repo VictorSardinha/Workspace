@@ -1,0 +1,42 @@
+/* Estilos globais */
+body {
+    background-color: #eefaa8;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #649ea7;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilos para a tabela */
+table {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+thead {
+    background-color: #8fbfb9;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}

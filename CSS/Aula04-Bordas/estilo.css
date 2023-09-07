@@ -1,0 +1,29 @@
+#div01 {
+    /* 1° espressura da borda em px / 2° Estilo da borda / 3° Cor da Borda */
+    border: 2px dashed rgb(201, 0, 0) ;
+}
+
+#div02 {
+    border: 2px dotted goldenrod;
+}
+
+/* ajustando Largura e altura da Imagem */
+
+#foto01 {
+    width: 250px;
+    height: 300px;
+}
+
+#foto02 {
+    width: 500px;
+    width: 300px;
+}
+
+/* imagem de fundo utilizando atributo background-image */
+
+body {
+    background-image: url(img/19581648-fundo-branco-3d-vetor.jpg);
+   background-repeat: no-repeat;
+   background-size: 500px 500px;
+   background-attachment: scroll;
+}
