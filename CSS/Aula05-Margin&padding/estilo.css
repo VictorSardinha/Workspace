@@ -1,0 +1,14 @@
+div {
+    border: solid burlywood 1px;
+    margin-top: 50px;  /* Topo da margem */
+    margin-right: 50px;  /* direita da margem */
+    margin-bottom: 50px;   /* base da margem */
+    margin-left: 50px; /* esquerda da margem */
+        
+}
+
+p {
+    border: solid rgb(188, 173, 202) 1px;
+    padding: 20px;
+    margin: 20px;
+}
