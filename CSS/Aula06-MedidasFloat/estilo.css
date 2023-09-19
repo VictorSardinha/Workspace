@@ -1,0 +1,18 @@
+*{
+    font-size: 20px;
+}
+
+#pai {
+    font-size: 16px;
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+}
+
+/* em rem multiplica o tamanho do pai */
+
+p {
+    background-color: aqua;
+    height: 50vh;
+    width: 50vw;
+}
