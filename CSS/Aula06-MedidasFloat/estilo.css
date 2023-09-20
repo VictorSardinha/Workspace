@@ -11,8 +11,30 @@
 
 /* em rem multiplica o tamanho do pai */
 
-p {
+/* p {
     background-color: aqua;
     height: 50vh;
     width: 50vw;
+} */
+
+
+img {
+    width: 250px;
+    height: 190px;
+}
+
+/* Float, pegara o item e jogará o conteúdo para o lado oposto do indicado na tag, como no exemplo abaixo: */
+
+#segundaimg {
+    float: left;
+}
+
+#primeiraimg {
+    float: right;
+}
+
+/* propriedade clear é usada para envolver o texto com as imagens */
+
+#paragrafo{
+    clear:none;
 }
