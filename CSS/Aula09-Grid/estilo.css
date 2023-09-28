@@ -1,43 +1,56 @@
 @charset "UTF-8";
 
-#conteiner{
-    display: grid;
-    /* grid 4x2 */
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    /* cada aspas duplas é uma linha em grid template area, o ponto indica que a celula esta fazia, ponto sempre sera usado no fim ou no inicio apenas, ou usado com outro filho*/
-    grid-template-areas: "div6 div6 div6 ." "div2 div2 div7 div7" "div5 div5 div5 div5" ;
-    
+#conteiner {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  height: 50vh;
+  align-content: space-around;
+  /* justify-content: space-evenly; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* gap: 10px; */
 }
+/* cada aspas duplas é uma linha em grid template area, o ponto indica que a celula esta fazia, ponto sempre sera usado no fim ou no inicio apenas, ou usado com outro filho*/
+/* grid-template-areas: "div6 div6 div6 ." "div2 div2 div7 div7" "div5 div5 div5 div5" ;}
+     */
 
 .item-1 {
-    grid-area: div1;
+  /* grid-area: div1; */
+  border: 2px solid wheat;
 }
 
 .item-2 {
-    grid-area: div2;
+  /* grid-area: div2; */
+  border: 2px solid rgb(3, 100, 52);
 }
 
 .item-3 {
-    grid-area: div3;
+  /* grid-area: div3; */
+  border: 2px solid rgb(0, 255, 242);
 }
 
 .item-4 {
-    grid-area: div4;
+  /* grid-area: div4; */
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .item-5 {
-    grid-area: div5;
+  /* grid-area: div5; */
+  border: 2px solid rgb(247, 0, 255);
 }
 
 .item-6 {
-    grid-area: div6;
+  /* grid-area: div6; */
+  border: 2px solid blue;
 }
 
 .item-7 {
-    grid-area: div7;
+  /* grid-area: div7; */
+  border: 2px solid rgb(255, 16, 16);
 }
 
 .item-8 {
-    grid-area: div8;
+  /* grid-area: div8; */
+  border: 2px solid rgb(43, 255, 0);
 }
