@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#conteiner{
+    display: grid;
+    /* grid 4x2 */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    /* cada aspas duplas é uma linha em grid template area, o ponto indica que a celula esta fazia, ponto sempre sera usado no fim ou no inicio apenas, ou usado com outro filho*/
+    grid-template-areas: "div6 div6 div6 ." "div2 div2 div7 div7" "div5 div5 div5 div5" ;
+    
+}
+
+.item-1 {
+    grid-area: div1;
+}
+
+.item-2 {
+    grid-area: div2;
+}
+
+.item-3 {
+    grid-area: div3;
+}
+
+.item-4 {
+    grid-area: div4;
+}
+
+.item-5 {
+    grid-area: div5;
+}
+
+.item-6 {
+    grid-area: div6;
+}
+
+.item-7 {
+    grid-area: div7;
+}
+
+.item-8 {
+    grid-area: div8;
+}
