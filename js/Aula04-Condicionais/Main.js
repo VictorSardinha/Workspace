@@ -90,3 +90,53 @@ if(inscricao == true){
         console.log("Você não passou na fase 2")
     }
 }
+
+console.clear()
+
+let pipoca = 10
+let pipoca2 = 56
+
+if(pipoca > pipoca2){  // true
+  console.log(pipoca + "é maior")
+}else{  // false
+    console.log(pipoca2 + "é maior")
+}
+
+// outra forma 
+console.clear()
+
+pipoca > pipoca2 ? console.log(pipoca + "é maior") : 
+console.log(pipoca2 + "é maior");
+
+console.clear()
+
+let mes = 3
+
+switch(mes){  // expressão
+    case mes == 3:
+        console.log("Março")
+    case mes == 4:
+        console.log("Abril")
+    case mes == 8:
+        console.log("Agosto")
+    case mes == 7:
+        console.log("Julho")
+}
+
+console.clear()
+
+var escopo = true
+if (escopo){
+    console.log(escopo)}
+
+switch(escopo){
+    case true:
+        console.log("Variavel global, escopo")
+        break; visualViewport
+
+
+
+        
+}
+
+
