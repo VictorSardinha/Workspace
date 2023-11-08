@@ -1,14 +1,22 @@
 class celular {
-  constructor(marca, modelo, cor, memoria, memoriaRam) {
+  constructor(marca, modelo, cor, memoria, memoriaRam, anoAtual, anoDoCelular) {
     this.marca = marca;   // Atributo
     this.modelo = modelo;
     this.cor = cor;
     this.memoria = 0;
     this.memoriaRam = memoriaRam ;
     this.isDesligando = false
+    this.anoDoCelular = anoDoCelular;
+    this.anoAtual = new Date().getFullYear(anoAtual)
 }
 
-retornoMarcaModelo
+retornaIdade(){
+    return this.anoAtual - this.anoDoCelular
+}
+
+retornoMarcaModelo(){
+    return `${this.marca}  ${this.modelo}`
+}
 
 ligar(){  // Metodo
     console.log("Ligando...")
@@ -32,9 +40,16 @@ pesquisa(){
 console.log(celular)
 
 // criar uma copia daquilo que já existie, instanciar uma classe
-var motorola = new celular("amarelo","Nokia 1986","32GB","4GBRAM","3600KF");
+var Positivo= new celular("amarelo","Nokia 1986","32GB","4GBRAM","3600KF");
 console.log(motorola)
 console.log(motorola.desligar())
 
 var positivo = new celular ("Positivo", "Twist4", "BlackYellowed", 8, "256Mb")
+console.log(positivo)
+console.log(positivo.retornoMarcaModelo())
+// rertornar idade do celular 
+console.log(positivo.retornaIdade())
+
+var data = new Date()
+console.log(data.getFullYear())
 
