@@ -6,4 +6,4 @@ elementoH1.textContent = 'Cadastro de Usuário';
 document.body.appendChild(elementoH1);
 
 // título da página
-elementoH1.innerHTML = 'Cadastro Empresa Macron';
+document.title = 'Cadastro Empresa Macron';
