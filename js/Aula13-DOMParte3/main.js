@@ -9,4 +9,4 @@ let j = document.querySelector(".exemplo");
 j.innerHTML = "aqui o texto foi alterado jubileu";
 j.style.color = "blue"
 
-let y = document.querySelector("#exemplo2").style.color = "yellow"m   
+let y = document.querySelector("#exemplo2").style.color = "yellow"
